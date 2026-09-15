@@ -154,20 +154,8 @@ assets/                  paper figures
 tests/                   lightweight model checks
 ```
 
-## Citation
-
-```bibtex
-@inproceedings{zhang2027qkgcc,
-  title     = {QK-GCC: Learnable Query-Key Spectral Matching for Robust Time Delay Estimation},
-  author    = {Zhang, Jinkai and Chen, Weiye and Tu, Xiaotong and Ding, Xinghao},
-  booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing},
-  year      = {2027}
-}
-```
-
 ## License
 
 This project is released under the MIT License.
 
 Maintainer: `jinkz33@XMU&UofG`
-
