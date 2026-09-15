@@ -1,0 +1,28 @@
+# Copyright (c) 2026 jinkz33@XMU&UofG
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qk-gcc"
+version = "1.0.0"
+description = "Learnable Query-Key spectral matching for time delay estimation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Jinkai Zhang", email = "zhangjinkai33@gmail.com"}]
+dependencies = [
+  "torch>=2.1",
+  "torchaudio>=2.1",
+  "numpy>=1.24",
+  "librosa>=0.10",
+  "pyroomacoustics>=0.7",
+  "tqdm>=4.66",
+]
+
+[tool.setuptools.packages.find]
+include = ["qkgcc*"]
+
+[tool.ruff]
+line-length = 100
+

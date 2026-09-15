@@ -1,0 +1,17 @@
+# Copyright (c) 2026 jinkz33@XMU&UofG
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+*.egg-info/
+data/
+runs/
+results/
+*.npy
+*.npz
+*.pt
+!checkpoints/qkgcc_seed1234.pt
+

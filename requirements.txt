@@ -1,0 +1,8 @@
+# Copyright (c) 2026 jinkz33@XMU&UofG
+torch>=2.1
+torchaudio>=2.1
+numpy>=1.24
+librosa>=0.10
+pyroomacoustics>=0.7
+tqdm>=4.66
+

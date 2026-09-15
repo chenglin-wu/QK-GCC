@@ -1,0 +1,5 @@
+# Copyright (c) 2026 jinkz33@XMU&UofG
+-r requirements.txt
+pytest>=8.0
+ruff>=0.6
+
