@@ -2,6 +2,8 @@
 
 Official implementation of **QK-GCC: Learnable Query-Key Spectral Matching for Robust Time Delay Estimation**.
 
+[[arXiv](https://arxiv.org/abs/2609.38000)] [[PDF](https://arxiv.org/pdf/2609.38000)]
+
 QK-GCC replaces the fixed cross-channel spectral product in generalized cross-correlation with local Query-Key matching. The released model is the lightweight single-pass version: it computes only \(Q_1K_2\), learns frequency reliability, and uses random channel swapping during training. No GCC response or GCC-derived prior is used by the model.
 
 ![QK-GCC architecture](assets/structure.png)
@@ -152,6 +154,20 @@ evaluate.py              30-condition evaluation entry point
 checkpoints/             representative released checkpoint
 assets/                  paper figures
 tests/                   lightweight model checks
+```
+
+## Citation
+
+If you find QK-GCC useful, please cite:
+
+```bibtex
+@article{zhang2026qkgcc,
+  title   = {QK-GCC: Learnable Query-Key Spectral Matching for Robust Time Delay Estimation},
+  author  = {Zhang, Jinkai and Chen, Weiye and Huang, Yue and Tu, Xiaotong and Ding, Xinghao},
+  journal = {arXiv preprint arXiv:2609.38000},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2609.38000}
+}
 ```
 
 ## License

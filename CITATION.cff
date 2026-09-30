@@ -1,0 +1,36 @@
+# Copyright (c) 2026 jinkz33@XMU&UofG
+cff-version: 1.2.0
+message: "If you use QK-GCC, please cite the paper below."
+title: "QK-GCC"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Jinkai
+  - family-names: Chen
+    given-names: Weiye
+  - family-names: Huang
+    given-names: Yue
+  - family-names: Tu
+    given-names: Xiaotong
+  - family-names: Ding
+    given-names: Xinghao
+year: 2026
+repository-code: "https://github.com/zhangjinkai33-ui/QK-GCC"
+url: "https://arxiv.org/abs/2609.38000"
+preferred-citation:
+  type: article
+  title: "QK-GCC: Learnable Query-Key Spectral Matching for Robust Time Delay Estimation"
+  authors:
+    - family-names: Zhang
+      given-names: Jinkai
+    - family-names: Chen
+      given-names: Weiye
+    - family-names: Huang
+      given-names: Yue
+    - family-names: Tu
+      given-names: Xiaotong
+    - family-names: Ding
+      given-names: Xinghao
+  year: 2026
+  doi: "10.48550/arXiv.2609.38000"
+  url: "https://arxiv.org/abs/2609.38000"
